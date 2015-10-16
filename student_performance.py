@@ -1,4 +1,3 @@
-__author__ = 'pc1'
 import pandas as panda
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import cross_decomposition
