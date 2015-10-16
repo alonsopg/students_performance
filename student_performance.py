@@ -39,7 +39,7 @@ from sklearn.svm import SVC
 #  cache_size=200, class_weight=None, verbose=False, max_iter=-1, random_state=None
 #ESTA ES LA LINEA QUE SE SUSTITUYO
 #svm = SVC(kernel='rbf', class_weight='auto')
-#AQUI ESTA LA PAGINA DONDE SE PUEDEN COSULTAR LOS POSIBLES VALORES PARA CADA HIPERPARAMETRO
+#AQUI ESTA LA PAGINA DONDE SE PUEDEN COSULTAR LOS POSIBLES VALORES PARA CADA HIPERPARAMETRO PARA HACER OPTIMIZACIONES
 #http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC
 svm=SVC(C=1.0, kernel='rbf', degree=3, gamma=0.0, coef0=0.0, shrinking=True, probability=False,
         tol=0.001, cache_size=200, class_weight="auto", verbose=False, max_iter=-1, random_state=None)
